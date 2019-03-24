@@ -505,6 +505,10 @@ footer h3 {
 	background-color: #59b210;
 	color: #fff;
 }
+.button_pg3:hover {
+	background-color: #59b210;
+	color: #fff;
+}
 .button_pg {
 	border:1px solid #59b210;
 }
@@ -514,6 +518,14 @@ footer h3 {
 	position: absolute;
 	right: 30px;
 	top: 643px;
+	background-color: transparent;
+	border: 1px solid #59b210;
+	height: 35px;
+}
+.button_pg3 {
+	border-radius: 15px;
+	width: 200px;
+	text-align: center;
 	background-color: transparent;
 	border: 1px solid #59b210;
 	height: 35px;

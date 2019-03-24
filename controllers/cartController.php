@@ -94,6 +94,10 @@ class cartController extends controller {
                     header("Location: ".BASE_URL."psckttransparente");
                     exit;
                     break;
+                case 'mp':
+                    header("Location: ".BASE_URL."mp");
+                    exit;
+                    break;
             }
 
 

@@ -489,3 +489,12 @@
 18/03/2019 08:34:13 PagSeguro.Session[info]: Begin
 18/03/2019 08:34:13 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=igor01silveira%40gmail.com&token=C2FFA0D898124BEC99EEA6535AB6B081
 18/03/2019 08:34:14 PagSeguro.Session[info]: Session ID: f4df47829b624acf8bd749521ecea9a3
+24/03/2019 04:53:57 PagSeguro.Session[info]: Begin
+24/03/2019 04:53:57 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=igor01silveira%40gmail.com&token=C2FFA0D898124BEC99EEA6535AB6B081
+24/03/2019 04:53:57 PagSeguro.Session[error]: CURL can't connect: Could not resolve host: ws.sandbox.pagseguro.uol.com.br
+24/03/2019 04:54:39 PagSeguro.Session[info]: Begin
+24/03/2019 04:54:40 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=igor01silveira%40gmail.com&token=C2FFA0D898124BEC99EEA6535AB6B081
+24/03/2019 04:54:40 PagSeguro.Session[error]: CURL can't connect: Could not resolve host: ws.sandbox.pagseguro.uol.com.br
+24/03/2019 04:57:44 PagSeguro.Session[info]: Begin
+24/03/2019 04:57:44 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=igor01silveira%40gmail.com&token=C2FFA0D898124BEC99EEA6535AB6B081
+24/03/2019 04:57:55 PagSeguro.Session[error]: CURL can't connect: Could not resolve host: ws.sandbox.pagseguro.uol.com.br

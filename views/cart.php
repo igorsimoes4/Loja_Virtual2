@@ -85,6 +85,9 @@ CEP DE ENTREGA:
 					<option value="checkout_transparente" class="form-control" style="border-radius: 40px;">
 						Pagseguro Checkout Transparente
 					</option>
+					<option value="mp" class="form-control" style="border-radius: 40px;">
+						Mercado Pago
+					</option>
 				</select>
 			</div>
 			<div class="col-sm-4">

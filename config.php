@@ -20,8 +20,12 @@ if(ENVIRONMENT == 'development') {
 }
 
 $config['default_lang'] = 'pt-br';
+// Informação do Cep da Loja
 $config['cep_origin'] = '58400260';
-
+// Informações do Mercado Pago
+$config['mp_appid'] = '956245779444163';
+$config['mp_key'] = '8rZv2Wr9XLeYZYr8HWEz5UfZB7zmrabr';
+// Informação do PagSeguro
 $config['pagseguro_seller'] = 'igor01silveira@gmail.com';
 
 $db = new PDO("mysql:dbname=".$config['dbname'].";host=".$config['host'], $config['dbuser'], $config['dbpass']);
