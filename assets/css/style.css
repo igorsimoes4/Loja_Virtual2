@@ -498,19 +498,26 @@ footer h3 {
 	text-align: center;
 }
 .button_pg2:hover {
-	background-color: #59b210;
-	color: #fff;
+	border:1.5px solid #59b210;
+	color: #59b210;
 }
 .button_pg:hover {
-	background-color: #59b210;
-	color: #fff;
+	border:1.5px solid #59b210;
+	color: #59b210;
 }
 .button_pg3:hover {
-	background-color: #59b210;
-	color: #fff;
+	border:1.5px solid #59b210;
+	color: #59b210;
 }
 .button_pg {
 	border:1px solid #59b210;
+}
+input:hover {
+	border:1px solid #59b210;
+}
+option {
+	text-align: center !important;
+	border-radius: 10px !important;
 }
 .button_pg2 {
 	border-radius: 15px;

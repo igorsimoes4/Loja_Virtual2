@@ -88,6 +88,9 @@ CEP DE ENTREGA:
 					<option value="mp" class="form-control" style="border-radius: 40px;">
 						Mercado Pago
 					</option>
+					<option value="paypal" class="form-control" style="border-radius: 40px;">
+						PayPal
+					</option>
 				</select>
 			</div>
 			<div class="col-sm-4">
