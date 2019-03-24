@@ -23,8 +23,8 @@ $config['default_lang'] = 'pt-br';
 // Informação do Cep da Loja
 $config['cep_origin'] = '58400260';
 // Informações do Mercado Pago
-$config['mp_appid'] = /* Colar a sua App ID do Mercado Pago */;
-$config['mp_key'] = /* Colar a sua Secret Key do Mercado Pago */;
+$config['mp_appid'] = '956245779444163';
+$config['mp_key'] = '8rZv2Wr9XLeYZYr8HWEz5UfZB7zmrabr';
 // Informação do PagSeguro
 $config['pagseguro_seller'] = 'igor01silveira@gmail.com';
 
@@ -36,7 +36,7 @@ $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 \PagSeguro\Library::moduleVersion()->setName("NovaLoja")->setRelease("1.0.0");
 
 \PagSeguro\Configuration\Configure::setEnvironment('sandbox');
-\PagSeguro\Configuration\Configure::setAccountCredentials(/* Colar a seu Email do PagSeguro */, /* Colar a sua Secret Key do PagSeguro */);
+\PagSeguro\Configuration\Configure::setAccountCredentials('igor01silveira@gmail.com', 'C2FFA0D898124BEC99EEA6535AB6B081');
 \PagSeguro\Configuration\Configure::setCharset('UTF-8');
 \PagSeguro\Configuration\Configure::setLog(true, 'pagseguro.log');
 
