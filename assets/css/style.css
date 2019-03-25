@@ -515,9 +515,11 @@ footer h3 {
 }
 .button_pg {
 	border:1px solid #59b210;
+	outline: #59b210;
 }
 input:hover {
 	border:1px solid #59b210;
+	outline: #59b210;
 }
 option {
 	text-align: center !important;
@@ -532,6 +534,7 @@ option {
 	background-color: transparent;
 	border: 1px solid #59b210;
 	height: 35px;
+	outline: #59b210;
 }
 .button_pg3 {
 	border-radius: 15px;
@@ -540,6 +543,7 @@ option {
 	background-color: transparent;
 	border: 1px solid #59b210;
 	height: 35px;
+	outline: #59b210;
 }
 .linha {
 	border: 1px solid #ccc;
