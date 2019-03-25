@@ -297,7 +297,9 @@ footer h3 {
 	border:1px solid #FFF;
 }
 .product_item:hover {
+	padding: 5px;
 	border:1px solid #EEE;
+	border-radius: 10px;
 }
 .product_item a {
 	text-decoration: none;
@@ -316,6 +318,7 @@ footer h3 {
 	padding-right:5px;
 	margin-top:5px;
 	color:#FFF;
+	border-radius: 5px;
 }
 .product_tag_red {
 	background-color:#f8484a;
@@ -358,6 +361,7 @@ footer h3 {
 	text-align: center;
 	line-height:40px;
 	display:inline-block;
+	border-radius: 20px;
 }
 .paginationItem:hover,
 .pag_active {

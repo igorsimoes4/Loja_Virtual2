@@ -16,7 +16,7 @@ if(ENVIRONMENT == 'development') {
 	$config['dbname'] = 'nova_loja';
 	$config['host'] = 'localhost';
 	$config['dbuser'] = 'root';
-	$config['dbpass'] = 'root';
+	$config['dbpass'] = '';
 }
 
 $config['default_lang'] = 'pt-br';
@@ -28,6 +28,10 @@ $config['mp_key'] = '8rZv2Wr9XLeYZYr8HWEz5UfZB7zmrabr';
 // Informações do PayPal
 $config['paypal_clientid'] = 'AXb529MX4Dj7MyoBzkiMVdQcEKfMZLgnUvn7IJCQybS9NxYPF1V0F96x4AAhn0E4gF8lSKjh_O3rKOL2';
 $config['paypal_secret'] = 'ED91rXKFV3_1wpxBqYElKeHs4vCZKsxkFJN1U6LZcACCl5NoSRJy9OjqKn8TjU-1ZE8dHdTsyEKPvack';
+// Informações do GerenciaNet
+$config['gerencianet_clientid'] = 'Client_Id_fed67adb9ce5dd1bd979733e465f3b522bdd468e';
+$config['gerencianet_clientsecret'] = 'Client_Secret_a69e33b2fbf28f14c9d20d7369b7d4eb7f4cbf96';
+$config['gerencianet_sandbox'] = true;
 // Informação do PagSeguro
 $config['pagseguro_seller'] = 'igor01silveira@gmail.com';
 

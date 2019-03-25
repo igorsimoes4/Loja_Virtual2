@@ -22,7 +22,7 @@ class homeController extends controller {
 
         $currentPage = 1;
         $offset = 0;
-        $limit = 3;
+        $limit = 15;
 
         if(!empty($_GET['p'])) {
             $currentPage = $_GET['p'];

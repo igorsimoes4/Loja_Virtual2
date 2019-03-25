@@ -102,6 +102,10 @@ class cartController extends controller {
                     header("Location: ".BASE_URL."paypal");
                     exit;
                     break;
+                case 'boleto':
+                    header("Location: ".BASE_URL."boleto");
+                    exit;
+                    break;
             }
 
 

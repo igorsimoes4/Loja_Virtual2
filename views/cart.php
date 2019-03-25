@@ -91,6 +91,9 @@ CEP DE ENTREGA:
 					<option value="paypal" class="form-control" style="border-radius: 40px;">
 						PayPal
 					</option>
+					<option value="boleto" class="form-control" style="border-radius: 40px;">
+						Boleto Bancário
+					</option>
 				</select>
 			</div>
 			<div class="col-sm-4">

@@ -46,6 +46,14 @@ class Purchases extends model {
 
 	}
 
+	public function updateBilletUrl($id, $link) {
+		$sql = "UPDATE purchases SET billet_link = :link WHERE id = :id";
+		$sql = $this->db->prepare($sql);
+		$sql->bindValue(":link", $link);
+		$sql->bindValue(":id", $id);
+		$sql->execute();
+	}
+
 
 
 
